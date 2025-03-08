@@ -1,0 +1,157 @@
+body {
+    /* font-family: 'Arial', 'Roboto', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1c1c;
+}
+
+div {
+    clear: left;
+}
+
+h1 {
+    font-size: 2em;
+    color: #f88379;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link, a:visited {
+    color: #4B9CE3;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f88379;
+}
+
+.main {
+    width: 1000px;
+    /*border-style: solid;*/
+    /*border-color: #eee;*/
+    /*border-radius: 10px;*/
+    margin: 10px auto;
+    padding: 40px;
+}
+
+
+.name {
+    margin-left: 0;
+}
+
+.header{
+    line-height: 1.4em;
+    margin: 0;
+}
+
+
+.header_pic {
+    display:inline-block;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.header_intro {
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    vertical-align: top;
+}
+
+.header_intro h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+.news {
+    margin-top: 40px;
+    overflow-y: scroll;
+    height:200px;
+}
+
+.news ul {
+    list-style-type: none;
+    line-height: 1.75em;
+    margin: 0;
+    padding: 0;
+}
+.news li {
+    margin: 0;
+    padding: 0;
+}
+
+.news span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 0.8em;
+}
+
+.papers {
+    margin-top: 40px;
+}
+
+.paper_img_wrapper {
+    float: left;
+    padding-right: 50px;
+
+}
+
+.paper_img {
+    width:250px;
+    /*max-height: 150px;*/
+}
+
+.paper_text {
+    text-align: left;
+    line-height: 1.75em;
+}
+
+.paper_title {
+    font-weight: bold;
+}
+
+.paper_authors {
+    font-style: italic;
+}
+
+.paper_conference {
+    font-weight: bold;
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.misc {
+    margin-top: 40px;
+}
+
+.misc span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 0.8em;
+}
+
+.text-red {
+  color: #f88379 !important;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }

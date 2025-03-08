@@ -1,0 +1,43 @@
+/* Style for the main container */ .main { max-width: 800px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; }
+
+/* Style for the name section */ .name h1 { font-size: 36px; color: #333; }
+
+.name p { font-size: 18px; color: #666; }
+
+/* Style for the header section */ .header img.me { border-radius: 50%; margin-right: 20px; }
+
+.header p { font-size: 16px; line-height: 1.5; }
+
+/* Style for the news section */ .news h2 { font-size: 24px; color: #333; }
+
+.news ul { list-style-type: none; padding: 0; }
+
+.news li { margin-bottom: 10px; }
+
+/* Style for the papers section */ .papers h2 { font-size: 24px; color: #333; }
+
+.papers ul { list-style-type: none; padding: 0; }
+
+.papers li { margin-bottom: 10px; }
+
+/* Style for the publications table */ .papers table { width: 100%; border-collapse: collapse; }
+
+.papers td { padding: 10px; vertical-align: top; }
+
+.papers .paper_img_wrapper { width: 150px; }
+
+.papers .paper_img { width: 100%; height: auto; }
+
+.papers .paper_text { padding-left: 10px; }
+
+.papers .paper_title { font-size: 18px; font-weight: bold; }
+
+.papers .paper_authors { font-size: 16px; color: #666; }
+
+.papers .paper_conference { font-size: 14px; color: #999; }
+
+/* Style for the services and talks sections */ .misc h2 { font-size: 24px; color: #333; }
+
+.misc ul { list-style-type: none; padding: 0; }
+
+.misc li { margin-bottom: 10px; } 3. Save the CSS file: Save the changes to your style.css file.
