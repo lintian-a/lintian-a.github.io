@@ -17,7 +17,7 @@
 
     <div class="header">
         <div class="header_pic">
-            <img src="images/profile_pic.jpg" alt="Lin Tian" style="width:180px;">
+            <img src="images/profile_pic.jpg" alt="Lin Tian" style="width:140px;">
         </div>
             <div class="header_intro">
             <h1>Lin Tian</h1>
@@ -32,13 +32,12 @@
                 
         <div>
             <p>My name is Lin Tian. I am a postdoctoral researcher at <a target="" href="https://lemon.martinos.org/team/">LEMoN, Athinoula A. Martinos Center for Biomedical Imaging</a>, Harvard Medical School & Massachusetts General Hospital, working with <a href="https://scholar.google.com/citations?user=_f2iSSQAAAAJ&hl=en">Dr. Juan Eugenio Iglesias</a>. I obtained my PhD in Computer Science from UNC Chapel Hill under the supervision of <a target="_blank" href="https://biag.cs.unc.edu/author/marc-niethammer/">Prof. Marc Niethammer</a>. Before attending UNC, I earned my M.S. from the University of Southern California (USC) and my B.S. from Huazhong University of Science and Technology (HUST). During my PhD, I worked as a research scientist intern at ByteDance AI, Alibaba DAMO, and Alphabet X (formerly Google X).
-                <p>My research interests broadly lie in computer vision (2D and 3D), medical imaging and machine learning.                       
+                <p>My research interests broadly lie in computer vision (2D and 3D), medical imaging and machine learning, with a focus on <b>3D spatial alignment between images and modalities</b>. I am particularly interested in the following topics:                     
                 <ul>
-                    <li>Robust and generalizable deep learning for medical image registration [<a target="_blank" href="https://github.com/uncbiag/uniGradICON">MICCAI'24</a>,<a target="_blank" href="https://arxiv.org/abs/2206.05897">CVPR'23</a>]
+                    <li>Robust and generalizable deep learning for medical image registration via transformation regularization [<a target="_blank" href="https://arxiv.org/abs/2206.05897">CVPR'23</a>,<a target="nephi" href="https://arxiv.org/abs/2309.07322">ECCV'24</a>], similarity measure [<a href="https://arxiv.org/pdf/2307.09727">MICCAI'23</a>,<a href="https://arxiv.org/abs/2311.14986">arXiv</a>], and foundation model [<a target="_blank" href="https://github.com/uncbiag/uniGradICON">MICCAI'24</a>].</li>
                     </li>
+                    <li>Dynamic subject 3D reconstruction from 2D images or videos, such as 2D tomosynthesis images [<a href="https://arxiv.org/abs/2203.04958">MICCAI'20</a>,<a href="https://arxiv.org/abs/2203.05565">MICCAI'22</a>], ultrasound images, RGBD images, and ex vivo dissection photographs [<a href="https://arxiv.org/abs/2503.09963">arXiv</a>].</li>
                     <li>Multi-modality joint representation learning for medical images.</li>
-                    <li>Dynamic subject 3D reconstruction from 2D images or videos (2D tomosynthesis images, ultrasound
-                        images and RGBD images)</li>
                 </ul>
             </p>
         </div>
@@ -47,6 +46,7 @@
     <div class="news">
         <h2>News</h2>
         <ul>
+            <li><span>[03/2024]</span> &raquo;  New preprint: "Reference-Free 3D Reconstruction of Brain Dissection Photographs with Machine Learning" <a href="https://arxiv.org/abs/2503.09963">[arXiv]</a> <a href="https://github.com/lintian-a/reffree">[Code]</a></li>
             <li><span>[02/2025]</span> &raquo;  <a href="https://arxiv.org/pdf/2405.16738">CARL</a> has been accepted by CVPR 2025.
             <li><span>[01/2025]</span> &raquo;  Serve as Area Chair for MICCAI 2025.
             <li><span>[07/2024]</span> &raquo;  <a href="https://arxiv.org/pdf/2408.00221">multiGradICON</a> has been accepted by WBIR 2024 for oral presentation.
@@ -87,11 +87,37 @@
         <h2>Publications</h2>
     <table>
     <tbody>
+        <!-- RefFree -->
+        <tr>
+            <td>
+            <div class="paper_img_wrapper">
+                <img class="paper_img" src="images/reffree_teaser.png" alt="reffree">
+            </div>
+            </td>
+            <td align="right">
+            <div class="paper_text">
+                <div class="paper_title">
+                    Reference-Free 3D Reconstruction of Brain Dissection Photographs with Machine Learning
+                </div>
+                <div class="paper_authors">
+                    <b>Lin Tian</b>, Sean I. Young, Jonathan Williams Ramirez, Dina Zemlyanker, Lucas Jacob Deden Binder, Rogeny Herisse, Theresa R. Connors, Derek H. Oakley, Bradley T. Hyman, Oula Puonti, Matthew S. Rosen, Juan Eugenio Iglesias
+                </div>
+                <div class="paper_conference">arXiv</div>
+                <div>
+                    <a target="_blank" href="https://github.com/lintian-a/reffree">[Code]</a>
+                    <a target="_blank" href="https://arxiv.org/abs/2503.09963">[Paper]</a>
+                </div>
+                <div>
+                </div>
+            </div>
+            </td>
+        </tr>
+
         <!-- uniGradICON -->
         <tr>
             <td>
             <div class="paper_img_wrapper">
-                <img class="paper_img" src="images/uniGradICON_teaser.png" alt="same++">
+                <img class="paper_img" src="images/uniGradICON_teaser.png" alt="unigradicon">
             </div>
             </td>
             <td align="right">
@@ -259,7 +285,7 @@
                 <div class="paper_authors">
                     Peirong Liu, <b>Lin Tian</b>, Yubo Zhang, Stephen R. Aylward, Yueh Z. Lee, Marc Niethammer
                 </div>
-                <div class="paper_conference">CVPR 2021 Oral</div>
+                <div class="paper_conference">CVPR 2021</div>
                 <div>
                     <!-- <a target="_blank" href="https://github.com/uncbiag/LiftReg">[Code]</a> -->
                     <a target="_blank" href="https://arxiv.org/abs/2011.12222">[Paper]</a>
