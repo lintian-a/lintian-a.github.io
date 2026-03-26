@@ -1,0 +1,101 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Lin Tian (田琳)
+    - name: Position
+      value: Research Fellow, Harvard Medical School & Massachusetts General Hospital
+    - name: Email
+      value: ltian3@mgh.harvard.edu
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD, Computer Science
+      institution: University of North Carolina at Chapel Hill
+      year: 2019 - 2024
+      description:
+        - Advised by Prof. Marc Niethammer
+    - title: M.S.
+      institution: University of Southern California
+      year: ""
+    - title: B.S.
+      institution: Huazhong University of Science and Technology
+      year: ""
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Fellow
+      institution: Harvard Medical School & Massachusetts General Hospital
+      year: 2024 - now
+      description:
+        - LEMoN Lab, Athinoula A. Martinos Center for Biomedical Imaging
+        - Working with Prof. Juan Eugenio Iglesias and Prof. Matthew Rosen
+    - title: Research Scientist Intern
+      institution: Alphabet X (formerly Google X)
+      year: 2022
+      description:
+        - Working with Alexander Zoellner, Ningrui Li, and Atilla Kiraly
+    - title: Research Scientist Intern
+      institution: Alibaba DAMO Academy
+      year: 2022
+      description:
+        - Working with Dakai Jin and Ke Yan
+    - title: Research Scientist Intern
+      institution: ByteDance AI Lab
+      year: 2021
+      description:
+        - Working with Imran Saleemi and Chao Wang
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Rising Stars in EECS, MIT & BU
+        - NSF Travel Award, CVPR Doctoral Consortium
+    - year: 2024
+      items:
+        - Best Oral Presentation, MICCAI WBIR
+    - year: 2022
+      items:
+        - Student Travel Award, MICCAI
+    - year: 2006
+      items:
+        - National Scholarship, Huazhong University of Science and Technology
+
+- title: Talks and Presentations
+  type: time_table
+  contents:
+    - title: HMBA meeting
+      institution: Allen Institute
+      year: 05/2025
+    - title: CNS Lab
+      institution: Stanford University
+      year: 05/2024
+    - title: PICSL
+      institution: University of Pennsylvania
+      year: 04/2024
+    - title: LCN
+      institution: Harvard Medical School & Massachusetts General Hospital
+      year: 02/2024
+    - title: QTIM
+      institution: Harvard Medical School & Massachusetts General Hospital
+      year: 02/2024
+
+- title: Services
+  type: nested_list
+  contents:
+    - title: Area Chair
+      items:
+        - MICCAI 2025
+        - MICCAI 2026
+    - title: Conference Reviewer
+      items:
+        - CVPR, ICCV, ECCV, MICCAI, AAAI
+    - title: Journal Reviewer
+      items:
+        - TPAMI, MedIA, TMI, Pattern Recognition

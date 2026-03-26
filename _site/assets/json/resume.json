@@ -1,0 +1,275 @@
+{
+  "basics": {
+    "name": "Lin Tian",
+    "email": "ltian3@mgh.harvard.edu",
+    "phone": "",
+    "url": "https://lintian-a.github.io",
+    "location": {
+      "address": "Athinoula A. Martinos Center for Biomedical Imaging",
+      "city": "Boston",
+      "countryCode": "US",
+      "region": "Massachusetts"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "lintian-a",
+        "url": "https://github.com/lintian-a"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "lin-tian-nene",
+        "url": "https://www.linkedin.com/in/lin-tian-nene/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Lin Tian",
+        "url": "https://scholar.google.com/citations?user=IVawKOEAAAAJ&hl=en"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "location": "Chapel Hill, NC, USA",
+      "url": "https://cs.unc.edu/",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2019-08-01",
+      "endDate": "2024-06-01",
+      "score": "",
+      "courses": [
+        "Advisor: Prof. Marc Niethammer"
+      ]
+    },
+    {
+      "institution": "University of Southern California",
+      "location": "Los Angeles, CA, USA",
+      "url": "https://www.usc.edu/",
+      "area": "",
+      "studyType": "M.S.",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Huazhong University of Science and Technology",
+      "location": "Wuhan, China",
+      "url": "https://www.hust.edu.cn/",
+      "area": "",
+      "studyType": "B.S.",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "name": "Harvard Medical School & Massachusetts General Hospital",
+      "position": "Research Fellow",
+      "url": "https://lemon.martinos.org/team/",
+      "startDate": "2024-06-01",
+      "endDate": "",
+      "summary": "LEMoN Lab, Athinoula A. Martinos Center for Biomedical Imaging. Working with Prof. Juan Eugenio Iglesias and Prof. Matthew Rosen.",
+      "highlights": [
+        "Spatial Intelligence for Healthcare",
+        "Medical Image Registration",
+        "Brain Dissection Reconstruction"
+      ]
+    },
+    {
+      "name": "Alphabet X (formerly Google X)",
+      "position": "PhD Residency",
+      "url": "",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "Working with Dr. Alexander Zoellner, Dr. Ningrui Li, and Dr. Atilla Kiraly.",
+      "highlights": [
+        "3D Dynamic Subject Reconstruction from videos using implicit neural representation and neural rendering"
+      ]
+    },
+    {
+      "name": "Alibaba DAMO Academy",
+      "position": "Research Scientist Intern",
+      "url": "",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-01",
+      "summary": "Working with Dr. Dakai Jin and Dr. Ke Yan.",
+      "highlights": [
+        "SAME++",
+        "SAMConvex"
+      ]
+    },
+    {
+      "name": "ByteDance AI Lab",
+      "position": "Research Scientist Intern",
+      "url": "",
+      "startDate": "2021-05-01",
+      "endDate": "2021-08-01",
+      "summary": "Working with Dr. Imran Saleemi.",
+      "highlights": [
+        "3D shape reconstruction and novel view synthesis from RGBD images using SDF and differentiable volume rendering"
+      ]
+    },
+    {
+      "name": "Ruijia Technology Inc.",
+      "position": "Machine Learning Engineer",
+      "url": "",
+      "startDate": "2017-03-01",
+      "endDate": "2019-08-01",
+      "summary": "Wuhan, China. Supervisor: Dr. Rong Yuan.",
+      "highlights": [
+        "Transfer learning for brain glioma classification from MRI images",
+        "Lung nodule detection from CT images using Faster R-CNN"
+      ]
+    },
+    {
+      "name": "Lilith Games",
+      "position": "VR Game Producer & Senior Game Designer",
+      "url": "",
+      "startDate": "2015-05-01",
+      "endDate": "2017-02-01",
+      "summary": "Shanghai, China.",
+      "highlights": [
+        "Virtual Reality Game Producer: PongIt!VR (Steam)",
+        "Senior Game Designer: Soul Hunters (iOS & Android), most profitable game in China 2014"
+      ]
+    },
+    {
+      "name": "Netease Games",
+      "position": "System Designer",
+      "url": "",
+      "startDate": "2014-06-01",
+      "endDate": "2015-05-01",
+      "summary": "Hangzhou, China.",
+      "highlights": [
+        "My Love from the Star (iOS & Android)"
+      ]
+    },
+    {
+      "name": "Disney Interactive Media Group",
+      "position": "Game Development Engineer",
+      "url": "",
+      "startDate": "2012-06-01",
+      "endDate": "2014-05-01",
+      "summary": "Los Angeles, USA.",
+      "highlights": [
+        "Stack Rabbit (iOS & Android)",
+        "Where's My Water (iOS & Android) \u2014 2012 Apple Design Award"
+      ]
+    }
+  ],
+  "honors": [
+    {
+      "title": "Rising Stars in EECS",
+      "date": "2025-09-01",
+      "awarder": "MIT & Boston University",
+      "url": "https://risingstars-eecs.mit.edu/participants/lin-tian/",
+      "summary": ""
+    },
+    {
+      "title": "NSF Travel Award",
+      "date": "2025-01-01",
+      "awarder": "CVPR Doctoral Consortium",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Best Oral Presentation",
+      "date": "2024-07-01",
+      "awarder": "MICCAI WBIR",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Student Travel Award",
+      "date": "2022-06-01",
+      "awarder": "MICCAI",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "National Scholarship",
+      "date": "2006-01-01",
+      "awarder": "Huazhong University of Science and Technology",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "talks": [
+    {
+      "title": "HMBA meeting",
+      "date": "2025-05-01",
+      "venue": "Allen Institute",
+      "url": ""
+    },
+    {
+      "title": "CNS Lab",
+      "date": "2024-05-01",
+      "venue": "Stanford University",
+      "url": ""
+    },
+    {
+      "title": "PICSL",
+      "date": "2024-04-01",
+      "venue": "University of Pennsylvania",
+      "url": ""
+    },
+    {
+      "title": "LCN",
+      "date": "2024-02-01",
+      "venue": "Harvard Medical School & Massachusetts General Hospital",
+      "url": ""
+    },
+    {
+      "title": "QTIM",
+      "date": "2024-02-01",
+      "venue": "Harvard Medical School & Massachusetts General Hospital",
+      "url": ""
+    }
+  ],
+  "services": [
+    {
+      "category": "Area Chair",
+      "items": [
+        "MICCAI 2025",
+        "MICCAI 2026"
+      ]
+    },
+    {
+      "category": "Conference Reviewer",
+      "items": [
+        "CVPR",
+        "ICCV",
+        "ECCV",
+        "MICCAI",
+        "AAAI",
+        "ICML"
+      ]
+    },
+    {
+      "category": "Journal Reviewer",
+      "items": [
+        "Medical Image Analysis",
+        "IEEE Transactions on Medical Imaging",
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "Pattern Recognition"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "references": []
+}
