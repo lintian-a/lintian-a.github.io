@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lintian-a.github.io/sitemap.xml
