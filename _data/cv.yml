@@ -4,9 +4,9 @@
     - name: Full Name
       value: Lin Tian (田琳)
     - name: Position
-      value: Research Fellow, Harvard Medical School & Massachusetts General Hospital
+      value: Assistant Professor, Department of Computer Science, Hong Kong Baptist University
     - name: Email
-      value: lintian@cs.hkbu.edu, lintian@cs.unc.edu
+      value: lintian@comp.hkbu.edu.hk
     - name: Languages
       value: English, Chinese
 
@@ -28,9 +28,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Assistant Professor
+      institution: Hong Kong Baptist University
+      year: 2026 - now
+      description:
+        - Department of Computer Science
     - title: Research Fellow
       institution: Harvard Medical School & Massachusetts General Hospital
-      year: 2024 - now
+      year: 2024.09 - 2026.07
       description:
         - LEMoN Lab, Athinoula A. Martinos Center for Biomedical Imaging
         - Working with Prof. Juan Eugenio Iglesias and Prof. Matthew Rosen
@@ -63,9 +68,9 @@
     - year: 2022
       items:
         - Student Travel Award, MICCAI
-    - year: 2006
+    - year: 2007
       items:
-        - National Scholarship, Huazhong University of Science and Technology
+        - National Scholarship, Ministry of Education
 
 - title: Talks and Presentations
   type: time_table
@@ -95,7 +100,7 @@
         - MICCAI 2026
     - title: Conference Reviewer
       items:
-        - CVPR, ICCV, ECCV, MICCAI, AAAI
+        - CVPR, ICCV, ECCV, MICCAI, AAAI, ICML, NeurIPS
     - title: Journal Reviewer
       items:
         - TPAMI, MedIA, TMI, Pattern Recognition

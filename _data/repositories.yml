@@ -1,4 +1,7 @@
 github_repos:
-  - uncbiag/ICON
-  - uncbiag/LiftReg
-  - uncbiag/uniGradICON
+  - name: uncbiag/uniGradICON
+    description: "A foundation model for medical image registration (MICCAI 2024)."
+  - name: uncbiag/ICON
+    description: "A library for performing image registration using deep learning, regularized by inverse consistency."
+  - name: uncbiag/LiftReg
+    description: "Official repository for LiftReg: Limited Angle 2D/3D Deformable Registration."

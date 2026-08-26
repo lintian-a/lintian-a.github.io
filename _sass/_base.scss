@@ -522,8 +522,75 @@ footer.sticky-bottom {
 // Repositories
 
 @media (min-width: 768px) {
-  .repo {
+  .repositories:not(.repo-grid) .repo {
     max-width: 50%;
+  }
+}
+
+// Equal-height cards: grid rows stretch, so every card in a row matches the
+// tallest one regardless of how long its description is.
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.repo {
+  width: 100%;
+  height: 100%;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  transition: border-color 0.2s ease-in-out;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .repo-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    word-break: break-word;
+
+    i {
+      margin-right: 0.4rem;
+      opacity: 0.7;
+    }
+  }
+
+  .repo-card-owner {
+    font-weight: 400;
+  }
+
+  .repo-card-description {
+    margin: 0.5rem 0 0.75rem;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--global-text-color);
+  }
+
+  // margin-top:auto pins the badges to the bottom of every card, so they line
+  // up across the row even when descriptions differ in length.
+  .repo-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+
+    img {
+      height: 20px;
+    }
   }
 }
 

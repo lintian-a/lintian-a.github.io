@@ -39,7 +39,7 @@ nav_order: 4
 
 ## GitHub Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories repo-grid">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
@@ -54,6 +54,7 @@ nav_order: 4
 
 [![PyPI version](https://img.shields.io/pypi/v/unigradicon?color=blue)](https://pypi.org/project/unigradicon/)
 [![Monthly Downloads](https://img.shields.io/pypi/dm/unigradicon?color=green&label=monthly%20downloads)](https://pypistats.org/packages/unigradicon)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/unigradicon?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=GREEN&left_text=overall+downloads)](https://pepy.tech/projects/unigradicon)
 [![License](https://img.shields.io/pypi/l/unigradicon)](https://github.com/uncbiag/uniGradICON)
 
 A foundation model for medical image registration supporting diverse anatomies and modalities without retraining.

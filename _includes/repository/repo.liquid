@@ -1,27 +1,53 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
+{% comment %}
+  Renders a repository card locally instead of embedding an SVG from
+  github-readme-stats.vercel.app, whose public instance is frequently paused
+  (HTTP 503 DEPLOYMENT_PAUSED) and takes every card down with it.
+
+  Accepts either a plain "owner/name" string or a map with `name` and an
+  optional `description`. Star and fork counts stay live via shields.io.
+{% endcomment %}
+
+{% if include.repository.name %}
+  {% assign repo_path = include.repository.name %}
+  {% assign repo_description = include.repository.description %}
+{% else %}
+  {% assign repo_path = include.repository %}
+  {% assign repo_description = nil %}
+{% endif %}
+
+{% assign repo_parts = repo_path | split: '/' %}
+{% assign repo_owner = repo_parts[0] %}
+{% assign repo_name = repo_parts[1] %}
+
+{% if site.data.repositories.github_users contains repo_owner %}
   {% assign show_owner = false %}
 {% else %}
   {% assign show_owner = true %}
 {% endif %}
 
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+<div class="repo">
+  <a class="repo-card" href="https://github.com/{{ repo_path }}">
+    <div class="repo-card-title">
+      <i class="fa-solid fa-book-bookmark"></i>
+      {% if show_owner %}
+        <span class="repo-card-owner">{{ repo_owner }}/</span>
+      {% endif %}
+      <span class="repo-card-name">{{ repo_name }}</span>
+    </div>
+    {% if repo_description %}
+      <p class="repo-card-description">{{ repo_description }}</p>
+    {% endif %}
+    <div class="repo-card-meta">
+      <img
+        loading="lazy"
+        alt="Stars"
+        src="https://img.shields.io/github/stars/{{ repo_path }}?style=flat&labelColor=343b41&color=4c71f2"
+      >
+      <img
+        loading="lazy"
+        alt="Forks"
+        src="https://img.shields.io/github/forks/{{ repo_path }}?style=flat&labelColor=343b41&color=4c71f2"
+      >
+    </div>
   </a>
 </div>

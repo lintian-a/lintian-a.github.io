@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Lin Tian",
-    "email": "lintian@hkbu.edu.hk",
+    "email": "lintian@comp.hkbu.edu.hk",
     "phone": "",
     "url": "https://lintian-a.github.io",
     "location": {
-      "address": "Athinoula A. Martinos Center for Biomedical Imaging",
-      "city": "Boston",
-      "countryCode": "US",
-      "region": "Massachusetts"
+      "address": "Department of Computer Science, Hong Kong Baptist University",
+      "city": "Hong Kong",
+      "countryCode": "HK",
+      "region": "Kowloon Tong"
     },
     "profiles": [
       {
@@ -67,11 +67,20 @@
   ],
   "work": [
     {
+      "name": "Hong Kong Baptist University",
+      "position": "Assistant Professor",
+      "url": "https://www.comp.hkbu.edu.hk/",
+      "startDate": "2026-08-17",
+      "endDate": "",
+      "summary": "Department of Computer Science.",
+      "highlights": []
+    },
+    {
       "name": "Harvard Medical School & Massachusetts General Hospital",
       "position": "Research Fellow",
       "url": "https://lemon.martinos.org/team/",
-      "startDate": "2024-06-01",
-      "endDate": "",
+      "startDate": "2024-09-01",
+      "endDate": "2026-07-01",
       "summary": "LEMoN Lab, Athinoula A. Martinos Center for Biomedical Imaging. Working with Prof. Juan Eugenio Iglesias and Prof. Matthew Rosen.",
       "highlights": [
         "Spatial Intelligence for Healthcare",
@@ -192,8 +201,8 @@
     },
     {
       "title": "National Scholarship",
-      "date": "2006-01-01",
-      "awarder": "Huazhong University of Science and Technology",
+      "date": "2007-01-01",
+      "awarder": "Ministry of Education",
       "url": "",
       "summary": ""
     }
@@ -246,7 +255,8 @@
         "ECCV",
         "MICCAI",
         "AAAI",
-        "ICML"
+        "ICML",
+        "NeurIPS"
       ]
     },
     {
