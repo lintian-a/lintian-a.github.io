@@ -28,5 +28,5 @@ I am currently particularly interested in the following research directions:
 
 ---
 
-**Openings**{: style="color: #cc0000;"}: I am looking for PhD students, interns, and visiting students for Fall 2026 and Spring 2027. Students with backgrounds in 3D computer vision, deep learning, medical image analysis, computer graphics, applied mathematics, or physics-based simulation are encouraged to apply. If you are interested, please email me with your CV, transcript, and a brief description of your research interests.
+**Openings**{: style="color: #cc0000;"}: I am looking for PhD students for Fall 2027. Students with backgrounds in 3D computer vision, deep learning, medical image analysis, computer graphics, applied mathematics, or physics-based simulation are welcome to apply. If you are interested, please email me with your CV, transcript, and a brief description of your research interests.
 
