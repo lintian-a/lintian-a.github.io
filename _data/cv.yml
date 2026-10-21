@@ -75,6 +75,9 @@
 - title: Talks and Presentations
   type: time_table
   contents:
+    - title: Precise, Generalizable, and Trustworthy Medical Image Registration
+      institution: Medical Image Computing Seminar (MICS) (医学图像计算青年研讨会)
+      year: 09/2026
     - title: HMBA meeting
       institution: Allen Institute
       year: 05/2025

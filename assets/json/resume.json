@@ -209,6 +209,12 @@
   ],
   "talks": [
     {
+      "title": "Precise, Generalizable, and Trustworthy Medical Image Registration",
+      "date": "2026-09-08",
+      "venue": "Medical Image Computing Seminar (MICS) (医学图像计算青年研讨会)",
+      "url": ""
+    },
+    {
       "title": "HMBA meeting",
       "date": "2025-05-01",
       "venue": "Allen Institute",
