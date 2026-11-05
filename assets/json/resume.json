@@ -209,6 +209,12 @@
   ],
   "talks": [
     {
+      "title": "From Image Alignment to Spatial Intelligence for Healthcare",
+      "date": "2026-10-31",
+      "venue": "NSFC-RGC Forum for Young Scholars: Image and Video Enhancement and Intelligent Recognition (NSFC-RGC青年学者论坛：图像视频增强与智能识别)",
+      "url": ""
+    },
+    {
       "title": "Precise, Generalizable, and Trustworthy Medical Image Registration",
       "date": "2026-09-08",
       "venue": "Medical Image Computing Seminar (MICS) (医学图像计算青年研讨会)",

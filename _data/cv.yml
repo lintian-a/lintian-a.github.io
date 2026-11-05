@@ -75,6 +75,9 @@
 - title: Talks and Presentations
   type: time_table
   contents:
+    - title: From Image Alignment to Spatial Intelligence for Healthcare
+      institution: "NSFC-RGC Forum for Young Scholars: Image and Video Enhancement and Intelligent Recognition (NSFC-RGC青年学者论坛：图像视频增强与智能识别)"
+      year: 10/2026
     - title: Precise, Generalizable, and Trustworthy Medical Image Registration
       institution: Medical Image Computing Seminar (MICS) (医学图像计算青年研讨会)
       year: 09/2026
